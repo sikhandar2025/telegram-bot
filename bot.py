@@ -5,8 +5,8 @@ import pymongo
 import os
 
 # Load bot token from environment variable
-TOKEN = os.getenv('BOT_TOKEN')
-MONGO_URI = os.getenv('MONGO_URI')
+TOKEN = os.getenv('7739875860:AAE7zjVh1g2pLTTlp4mtATWrjVb46BrMsPY')
+MONGO_URI = os.getenv('mongodb+srv://sikhandar:<f9vNpg99h65HmGf6>@telegrambotdb.3a1k5.mongodb.net/?retryWrites=true&w=majority&appName=TelegramBotDB')
 
 # Connect to MongoDB
 client = pymongo.MongoClient(MONGO_URI)
